@@ -1,0 +1,26 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments and local settings
+.venv/
+venv/
+.env
+
+# Generated model artefacts
+*.pkl
+catboost_info/
+
+# Optional local datasets
+data/*.csv
+gold_industry_train.csv
+gold_industry_test.csv
+gold_industry_full.csv
+
+# Operating-system files
+.DS_Store
+Thumbs.db
